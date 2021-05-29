@@ -1,0 +1,416 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+/*---------------------------------------------------------Начало ЭЭЭЭКСПЕРИМЕНТОВ--------------------------------------------------*/
+/*
+.button {
+    background-color: violet;
+    border: none;
+    //border-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 18px;
+}*/
+
+.top-bar {
+    height: 3.5rem;
+    background-color: #f7f7f7;
+    align-items: center;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav-tab {
+    margin: 0;
+    padding: 0.3rem 1.8rem;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+    margin-top: auto;
+    width: auto;
+    text-align: center;
+}
+
+    .nav-tab img {
+        height: 2rem;
+        margin-bottom: 0.25rem;
+        align-self: center;
+    }
+
+.logo {
+    display: flex;
+}
+
+    .logo > img {
+        margin-right: 3rem;
+        width: 9rem;
+    }
+
+a.sign-in {
+    background-color: #f9f2fb;
+    border: 1.5px solid white;
+    border-radius: 0.7em;
+    border-color: #f0ddf4;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    /*font-family: 'Bahnschrift', Arial, Helvetica, sans-serif;*/
+    font-family: 'Courier New';
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    margin-left: 3px;
+}
+
+.user-info {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+    .user-info img {
+        margin-right: 0.7rem;
+        width: 2.6rem;
+    }
+
+    .user-info .username {
+        display: block;
+        font-weight: 700;
+        line-height: 0.7rem;
+        margin-top: 0.5rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .user-info a {
+        color: #9c59dd;
+        font-size: 0.8rem;
+    }
+
+    .user-info button.sign-out {
+        color: red;
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+body {
+    background: #ececec;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+body {
+    background: #ececec;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.content {
+    margin-top: 50px;
+}
+/*
+.product {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    height: 390px;
+    overflow: hidden;
+    padding: 25px 15px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 20px;
+}
+
+    .product:hover {
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    }
+
+.product-img {
+    height: 200px;
+}
+
+.product-title a {
+    color: #000;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.product-category a {
+    color: #000;
+    font-weight: 500;
+    text-transform: none;
+    text-align: center;
+}
+
+.product-desc {
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.product-price {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    color: #9c59dd;
+    font-size: 18px;
+    font-weight: 500;
+}*/
+
+.textillo {
+    /*background-color: #f9f2fb;
+    border: 1.5px solid white;
+    border-radius: 0.7em;
+    border-color: #f0ddf4;*/
+    text-transform: none;
+    padding: 0.2rem 0.8rem 0.1rem 0.8rem;
+    font-family: 'Courier New';
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    margin-left: 3px;
+    color: #9c59dd;
+}
+/**/
+
+.product-wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    transition: width .2s;
+}
+
+@media only screen and (min-width: 450px) {
+    .product-wrapper {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .product-wrapper {
+        width: 33.333%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .product-wrapper {
+        width: 25%;
+    }
+}
+.product {
+    display: block;
+    border: 1px solid #b5e9a7;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+    margin: 0 20px 20px 0;
+    text-decoration: none;
+    color: #474747;
+    z-index: 0;
+    height: 300px;
+}
+.products {
+    list-style: none;
+    margin: 0 -20px 0 0;
+    padding: 0;
+}
+/**/
+
+* {
+    box-sizing: border-box;
+}
+
+.product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+}
+
+    .product-item:hover {
+        border-bottom: 2px solid #fc5a5a;
+    }
+
+    .product-item img {
+        display: block;
+        width: 100%;
+    }
+
+.product-list {
+    background: #fafafa;
+    padding: 15px 0;
+}
+
+    .product-list h3 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #444444;
+        margin: 0 0 10px 0;
+    }
+
+.price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.buttonlist {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+}
+
+.product-item:hover .buttonlist {
+    background: #fc5a5a;
+}
+
+.center-block {
+    display: table;
+    margin: auto;
+}
+
+/*хуета для одинаковых изображений*/
+.box {
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.my-img-fluid {
+    width: 250px;
+    height: 310px;
+}
+
+/*Прячу сообщение об ошибке, которое прописано в Pages\_Host.cshtml*/
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }

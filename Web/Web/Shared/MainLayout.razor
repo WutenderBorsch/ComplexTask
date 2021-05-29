@@ -1,0 +1,54 @@
+﻿@inherits LayoutComponentBase
+
+<!--<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/site.css" rel="stylesheet" type="text/css" />
+</head>-->
+<body>
+    <div class="page">
+
+        <div class="main">
+
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+
+                    <a class="logo mx-auto" href="/Index">
+                        <img src="img/logo.svg" />
+                    </a>
+
+                    <form class="form-inline mx-auto my-2 my-lg-0" style="align-content:start; align-items: start">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Поиск</button>
+                    </form>
+
+                    <NavLink href="#" class="mx-auto" Match="NavLinkMatch.All">
+                        <div class="text-center">
+                            <a href="#" style="margin-right:100px;"><img src="img/basket.svg" /></a>
+                        </div>
+                    </NavLink>
+
+                    <LoginDisplay />
+                </div>
+            </nav>
+
+            <!--<div class="top-row px-4 auth">
+                <LoginDisplay />
+            </div>-->
+
+            <div class="navbar-expand-lg">
+                <NavMenu />
+            </div>
+
+            <div class="content px-4">
+                @Body
+            </div>
+        </div>
+
+        <footer class="border-top footer text-muted" style="text-align: center; background-color: #DFF5F0;">
+            <div class="container">
+                &copy; 2021 - WutenderBorsch - "Besser nicht zu wissen." - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
