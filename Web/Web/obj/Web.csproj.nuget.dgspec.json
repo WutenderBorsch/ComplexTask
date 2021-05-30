@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anast\\source\\repos\\Web\\Web\\Web.csproj": {}
+    "C:\\Users\\anast\\Documents\\GitHub\\ComplexTask\\Web\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anast\\source\\repos\\Web\\Web\\Web.csproj": {
+    "C:\\Users\\anast\\Documents\\GitHub\\ComplexTask\\Web\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anast\\source\\repos\\Web\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\anast\\Documents\\GitHub\\ComplexTask\\Web\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\anast\\source\\repos\\Web\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\anast\\Documents\\GitHub\\ComplexTask\\Web\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\anast\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anast\\source\\repos\\Web\\Web\\obj\\",
+        "outputPath": "C:\\Users\\anast\\Documents\\GitHub\\ComplexTask\\Web\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anast\\AppData\\Roaming\\NuGet\\NuGet.Config",

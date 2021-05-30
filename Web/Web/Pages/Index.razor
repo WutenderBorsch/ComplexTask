@@ -1,4 +1,7 @@
 ﻿@page "/"
+@inject IJSRuntime JsRuntime
+@namespace BlazorFrontend.Components
+
 
 <!DOCTYPE html>
 <html>
@@ -6,12 +9,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/site.css" rel="stylesheet" type="text/css" />
 </head>-->
+
 <body>
     <section>
         <div class="main" style="margin-top: 10px; background-color:#DFF5F0; border-radius:10px;">
             <!-- #f0ddf4-->
             <!--Slider-->
-           <div class="container-fluid">
+            <!--<div class="container-fluid">
                 <div id="My_carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#My_carousel" data-slide-to="0" class="active"></li>
@@ -52,7 +56,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
+            </div>-->
             <!--End Slider-->
 
             <div class="container-fluid" style="background-color:whitesmoke;">
@@ -62,6 +66,16 @@
             <!--Catalog-->
             <div class="card-deck" style="margin-top: 30px;">
                 <ul class="card-deck products clearfix mx-auto">
+                    <li class="card product-wrapper">
+                        <div class="product-item">
+                            <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
+                            <div class="product-list">
+                                <p class="card-title">@Product.</p>
+                                <span class="price">150 ₽</span>
+                                <a href="#" class="buttonlist">В корзину</a>
+                            </div>
+                        </div>
+                    </li>
                     <li class="card product-wrapper">
                         <div class="product-item">
                             <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
@@ -173,5 +187,20 @@
     </section>
 </body>
 </html>
+
+@{       
+
+    protected override void OnInitialized()
+    {
+        using (var context = new storeContext())
+        {
+            Product = context.Product
+                .Where(a. => a.IdCategory == SelectCategory.Id)
+                .ToList();
+        }
+
+
+    }
+}
 
 <!--<SurveyPrompt Title="How is Blazor working for you?" />-->
