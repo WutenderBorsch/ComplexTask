@@ -1,7 +1,8 @@
 ﻿@page "/"
+@using Web.Pages
 @inject IJSRuntime JsRuntime
 @namespace BlazorFrontend.Components
-
+@inherits Main
 
 <!DOCTYPE html>
 <html>
@@ -66,46 +67,19 @@
             <!--Catalog-->
             <div class="card-deck" style="margin-top: 30px;">
                 <ul class="card-deck products clearfix mx-auto">
-                    <li class="card product-wrapper">
-                        <div class="product-item">
-                            <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
-                            <div class="product-list">
-                                <p class="card-title">@Product.</p>
-                                <span class="price">150 ₽</span>
-                                <a href="#" class="buttonlist">В корзину</a>
+                    @foreach (var item in Products.Take(10))
+                    {
+                        <li class="card product-wrapper">
+                            <div class="product-item">
+                                <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
+                                <div class="product-list">
+                                    <p class="card-title">@item.Name</p>
+                                    <span class="price">@($"{item.Price} ₽")</span>
+                                    <a href="#" class="buttonlist">В корзину</a>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="card product-wrapper">
-                        <div class="product-item">
-                            <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
-                            <div class="product-list">
-                                <h3>Магнит на холодильник из дерева</h3>
-                                <span class="price">150 ₽</span>
-                                <a href="#" class="buttonlist">В корзину</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card product-wrapper">
-                        <div class="product-item">
-                            <img src="img/milo.png" class="my-img-fluid">
-                            <div class="product-list">
-                                <h3>Натуральное мыло с шелком</h3>
-                                <span class="price">300 ₽</span>
-                                <a href="" class="buttonlist">В корзину</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="card product-wrapper">
-                        <div class="product-item">
-                            <img src="img/brosh.png" class="my-img-fluid">
-                            <div class="product-list">
-                                <h3>Брошь "Совенок"</h3>
-                                <span class="price">550 ₽</span>
-                                <a href="" class="buttonlist">В корзину</a>
-                            </div>
-                        </div>
-                    </li>
+                        </li>
+                    }
                 </ul>
                 <ul class="card-deck products clearfix mx-auto" style="margin-top: 30px;">
                     <li class="card product-wrapper">
@@ -188,19 +162,5 @@
 </body>
 </html>
 
-@{       
-
-    protected override void OnInitialized()
-    {
-        using (var context = new storeContext())
-        {
-            Product = context.Product
-                .Where(a. => a.IdCategory == SelectCategory.Id)
-                .ToList();
-        }
-
-
-    }
-}
 
 <!--<SurveyPrompt Title="How is Blazor working for you?" />-->
