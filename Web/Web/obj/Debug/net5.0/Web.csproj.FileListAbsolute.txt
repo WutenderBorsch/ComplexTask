@@ -349,10 +349,7 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Areas
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\AboutUs.cshtml.g.cs
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Category.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\MyIndex.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
@@ -374,5 +371,13 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\ref\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.pdb
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Basket.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Basket.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Сategory.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Сategory.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Privacy.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Privacy.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\AboutUs.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\AboutUs.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.csprojAssemblyReference.cache

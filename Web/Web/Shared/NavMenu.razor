@@ -1,31 +1,4 @@
-﻿<!--<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">Web</a>
-    <button class="navbar-toggler" @onclick="ToggleNavMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-</div>
-
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
-    <ul class="nav flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </li>
-    </ul>
-</div>
--->
-
+﻿
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top:10px;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +14,7 @@
                 </li>
                 <li class="nav-item navbar-text">
                     <!--<a class="nav-link" href="/Category">Каталог товаров</a>-->
-                    <NavLink class="nav-link" href="category" Match="NavLinkMatch.All">
+                    <NavLink class="nav-link" href="/Category" Match="NavLinkMatch.All">
                         <span class="oi oi-plus" aria-hidden="true"></span>Каталог товаров
                     </NavLink>
                 </li>

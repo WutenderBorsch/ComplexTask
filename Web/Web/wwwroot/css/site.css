@@ -332,6 +332,7 @@ img {
     background: white;
     font-family: "Open Sans";
     transition: .3s ease-in;
+   
 }
 
     .product-item:hover {
@@ -345,7 +346,12 @@ img {
 
 .product-list {
     background: #fafafa;
-    padding: 15px 0;
+    /*padding: 15px 0;*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1490px;
+    margin: 0 auto;
+    list-style:none;
 }
 
     .product-list h3 {

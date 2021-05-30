@@ -1,0 +1,107 @@
+﻿@page "/Category"
+@inherits Main
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/entertaiment.svg" width="24" height="24" />
+                                Активный отдых и развлечения
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/baby.svg" width="24" height="24" />
+                                Для детей
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/home.svg" width="24" height="24" />
+                                Дом и интерьер
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/office.svg" width="24" height="24" />
+                                Канцелярские товары
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/cosmetics.svg" width="24" height="24" />
+                                Косметика
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/toys.svg" width="24" height="24" />
+                                Куклы и игрушки
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/clothes.svg" width="24" height="24" />
+                                Одежда и обувь
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/present.svg" width="24" height="24" />
+                                Сувениры и подарки
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/bags.svg" width="24" height="24" />
+                                Сумки и аксессуары
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/pet.svg" width="24" height="24" />
+                                Товары для питомцев
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: black">
+                                <img src="/img/iconlogo/ukrashenie.svg" width="24" height="24" />
+                                Украшения
+                            </a>
+                        </li>
+                        <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>-->
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <h2>Товары</h2>
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+
+                    <div class="card-deck">
+                        <ul class="product-list">
+                            @foreach (var item in Products.Take(10))
+                            {
+                                <li class="product-item" style="margin-top: 50px;">
+                                    <div class="product-item">
+                                        <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
+                                        <div>
+                                            <p class="card-title">@item.Name</p>
+                                            <span class="price">@($"{item.Price} ₽")</span>
+                                            <a href="/Basket" class="buttonlist">В корзину</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+<footer class="pt-4 my-md-5 pt-md-5" style="margin-top: 150px; background-color: #f0f0f0;"></footer>

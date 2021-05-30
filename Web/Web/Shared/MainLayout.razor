@@ -8,7 +8,6 @@
     <div class="page">
 
         <div class="main">
-
             <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
                 <div class="container">
 
@@ -23,7 +22,7 @@
 
                     <NavLink href="#" class="mx-auto" Match="NavLinkMatch.All">
                         <div class="text-center">
-                            <a href="#" style="margin-right:100px;"><img src="img/basket.svg" /></a>
+                            <a href="/Basket" style="margin-right:100px;"><img src="img/basket.svg" /></a>
                         </div>
                     </NavLink>
 
@@ -31,15 +30,39 @@
                 </div>
             </nav>
 
-            <div class="navbar-expand-lg">
+            <!--<div class="navbar-expand-lg">
                 <NavMenu />
-            </div>
+            </div>-->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top:10px;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mx-auto mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active navbar-text">
+                            <a class="nav-link" href="/">Главная<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <NavLink class="nav-link" href="/Category" Match="NavLinkMatch.All">
+                                <span class="oi oi-plus" aria-hidden="true"></span>Каталог товаров
+                            </NavLink>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a class="nav-link" href="/aboutUs">О сайте</a>
+                        </li>
+                        <li class="nav-item navbar-text">
+                            <a class="nav-link disabled" href="#">Добавить товар</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
             <div class="content px-4">
                 @Body
             </div>
         </div>
-
+        
         <footer class="border-top footer text-muted" style="text-align: center; background-color: #DFF5F0; margin-top:10px;">
             <div class="container">
                 &copy; 2021 - WutenderBorsch - "Besser nicht zu wissen." - <a asp-area="" href="Privacy" style="color:gray">Privacy</a>
