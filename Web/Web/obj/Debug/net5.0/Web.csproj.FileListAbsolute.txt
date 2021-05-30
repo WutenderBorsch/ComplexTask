@@ -316,7 +316,6 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\runtimes\wi
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.csprojAssemblyReference.cache
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.AssemblyInfoInputs.cache
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.AssemblyInfo.cs
@@ -355,7 +354,6 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\MyIndex.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -376,3 +374,5 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\ref\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.pdb
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
