@@ -20,7 +20,7 @@ namespace Web.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
-
+        public static IdentityUser MyUser { get; set; }
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
             UserManager<IdentityUser> userManager)
@@ -78,6 +78,7 @@ namespace Web.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByEmailAsync(Input.Email);
+                MyUser = null;
 
                 if (user is null)
                 {
@@ -99,6 +100,7 @@ namespace Web.Areas.Identity.Pages.Account
                     else
                     {
                         _logger.LogInformation("Пользователь вошел");
+                        MyUser = user;
                         return LocalRedirect(returnUrl);
                     }
                 }

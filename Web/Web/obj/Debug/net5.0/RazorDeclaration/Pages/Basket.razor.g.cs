@@ -82,8 +82,29 @@ using Web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\Pages\Basket.razor"
+using Web.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\Pages\Basket.razor"
+using Web.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\Pages\Basket.razor"
+using Microsoft.EntityFrameworkCore;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/Basket")]
-    public partial class Basket : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Basket : Web.Pages.BasketLoad
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

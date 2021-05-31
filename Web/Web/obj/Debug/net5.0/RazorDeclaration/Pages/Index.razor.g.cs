@@ -89,6 +89,13 @@ using Web.Pages;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\Pages\Index.razor"
+using Web.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Main
     {

@@ -7,11 +7,6 @@ namespace Web
 {
     public partial class Product
     {
-        public Product()
-        {
-            Baskets = new HashSet<Basket>();
-        }
-
         public int Id { get; set; }
         public string Name { get; set; }
         public byte[] Image { get; set; }
@@ -22,6 +17,5 @@ namespace Web
 
         public virtual Category IdCategoryNavigation { get; set; }
         public virtual Master IdMasterNavigation { get; set; }
-        public virtual ICollection<Basket> Baskets { get; set; }
     }
 }

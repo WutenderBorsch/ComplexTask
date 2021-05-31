@@ -82,6 +82,13 @@ using Web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\Shared\MainLayout.razor"
+using Web.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

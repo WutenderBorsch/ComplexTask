@@ -20,7 +20,7 @@ namespace Web
         public string Surname { get; set; }
         public string Name { get; set; }
         public string Patronymic { get; set; }
-        public float Phone { get; set; }
+        public long Phone { get; set; }
         public DateTime DateOfReg { get; set; }
         public DateTime DateOdBirth { get; set; }
         public string DescriptionOfActivities { get; set; }

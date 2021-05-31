@@ -1,53 +1,47 @@
 ﻿@page "/Basket"
+@using Web.Data;
+@inherits Web.Pages.BasketLoad
 
+@using Web.Areas.Identity.Pages.Account;
+@using Microsoft.EntityFrameworkCore;
 
 <section>
-    <div class="main" style="margin-top: 10px; background-color:#DFF5F0; border-radius:10px;">
+    <div class="main" style="margin-top: 10px; background-color:#DFF5F0; border-radius:10px; height:420px;">
         <div class="container-fluid" style="background-color:whitesmoke;">
             <h3 style="text-align:center; color:black; margin:15px 0px 15px 0px">Корзина</h3>
             <hr />
         </div>
 
-        <!--<div class="card-deck" style="margin-top: 30px;">
-            <ul class="card-deck products clearfix mx-auto">
-                <li class="card product-wrapper">
-                    <div class="product-item">
-                        <a href="#"><img src="img/magnit.png" class="my-img-fluid"></a>
-                        <div class="product-list">
-                            <p class="card-title">Товар</p>
-                            <span class="price">100 ₽</span>
-                            <a href="#" class="buttonlist">В корзину</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>-->
-
-        <div class="row">
-            <div class="col-lg-3 col-sm-3 col-xs-12" style="height: 100px; line-height: 100px; text-align:center;">
-                <img src="img/milo.png" style="width: 80px; height: 80px;" />
-            </div>
-            <div class="col-lg-3 col-sm-3 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
-                Название
-            </div>
-            <div class="col-lg-2 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
-                Цена
-            </div>
-            <div class="col-lg-1 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
-                Количество
-            </div>
-            <div class="col-lg-3 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
-                Удалить
-            </div>
+        <div class="row" style="background-color:azure;">
+            @foreach (var item in Baskets)
+            {
+                <div class="col-lg-3 col-sm-3 col-xs-12" style="height: 100px; line-height: 100px; text-align:center;">
+                    <img src="@item.IdProductNavigation.Img" style="width: 80px; height: 80px;" />
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
+                    @item.IdProductNavigation.Name
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
+                    @($"{item.Price} ₽")
+                </div>
+                <div class="col-lg-1 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;">
+                    @item.Quantity
+                </div>
+                <div class="col-lg-3 col-sm-2 col-xs-12 mob-fix" style="height: 100px; line-height: 100px;" @onclick="(() => delete(item))">
+                    <a href=" " class="buttonlist" style="text-transform:none; background-color:#fc5a5a;">Удалить</a> 
+                </div>
+            }
         </div>
     </div>
     <hr>
     <div style="width: 100%; text-align: right;">
         <div style="width: 70%; float: right;">
-            <!--<button background: #fc5a5a; text-transform: uppercase;>Оформить заказ</button>-->
             <a href="#" class="buttonlist" style="text-transform:none; background-color:#fc5a5a;">Оформить заказ</a>
         </div>
-     </div>
+    </div>
 </section>
 
 <footer class="pt-4 my-md-5 pt-md-5" style="margin-top: 150px; background-color: #f0f0f0;"></footer>
+
+
+

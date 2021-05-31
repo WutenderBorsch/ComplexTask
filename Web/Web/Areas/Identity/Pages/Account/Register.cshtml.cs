@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using Web.Areas.Identity.Pages.Account;
 using Microsoft.Extensions.Logging;
 
 namespace Web.Areas.Identity.Pages.Account
@@ -98,6 +99,7 @@ namespace Web.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
+                        LoginModel.MyUser = user;
                         return LocalRedirect(returnUrl);
                     }
                 }

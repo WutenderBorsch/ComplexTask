@@ -67,6 +67,7 @@ namespace Web
             {
                 endpoints.MapControllers();
                 endpoints.MapBlazorHub();
+                endpoints.MapRazorPages();
                 endpoints.MapFallbackToPage("/_Host");
             });
         }
