@@ -381,3 +381,14 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\BlazorComponentUtilities.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\BlazorStrap.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.JSInterop.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Slider.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Slider.razor.g.cs
