@@ -56,6 +56,7 @@ namespace Apps1
             string connectionStr = "Server=localhost; Port=5432; Database=store; User Id=postgres; Password=123";
             try
             {
+               
                 var master = (Master)cmbMaster.SelectedItem;
                 var idm = master.Id;
                 var nickname = master.Nickname;

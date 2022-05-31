@@ -363,7 +363,6 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\ref\Web.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.pdb
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
-C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.csprojAssemblyReference.cache
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\AboutUs.razor.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Basket.razor.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
@@ -392,3 +391,4 @@ C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\Microsoft.J
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\RazorDeclaration\Pages\Slider.razor.g.cs
 C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Razor\Pages\Slider.razor.g.cs
+C:\Users\anast\Documents\GitHub\ComplexTask\Web\Web\obj\Debug\net5.0\Web.csproj.AssemblyReference.cache
